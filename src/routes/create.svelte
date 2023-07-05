@@ -137,7 +137,7 @@
 </script>
 
 <svelte:head>
-  <title>Create a new FLOAT {PAGE_TITLE_EXTENSION}</title>
+  <title>Create a new {PAGE_TITLE_EXTENSION}</title>
 </svelte:head>
 
 <!-- 
@@ -149,20 +149,20 @@
 
 <div class="container">
   <article>
-    <h1 class="mb-1" style="text-align: center;">Create a new FLOAT</h1>
+    <h1 class="mb-1" style="text-align: center;">Create a new YearBlock</h1>
 
     <label for="name">
-      Event Name
+      YearBlock Name
       <input type="text" id="name" name="name" bind:value={$draftFloat.name} />
     </label>
 
     <label for="name">
-      Event URL
+      YearBlock URL
       <input type="text" id="name" name="name" bind:value={$draftFloat.url} />
     </label>
 
     <label for="description">
-      Event Description
+      YearBlock Description
       <textarea
         id="description"
         name="description"
@@ -246,7 +246,7 @@
       Time: UNLIMITED vs LIMITED (toggles start /end time inputs)
       Requires Claim Code: Yes vs No (btw so are we going with hash or code after the event?) 
     -->
-    <h3 class="mb-1">Configure your FLOAT</h3>
+    <h3 class="mb-1">Configure your Yearblock</h3>
 
     <h5>Can be changed later.</h5>
     <!-- GIFTABLE -->
@@ -257,7 +257,7 @@
         on:click={() => ($draftFloat.transferrable = true)}
       >
         Tradeable
-        <span>This FLOAT can be traded and/or transferred.</span>
+        <span>This Yearblock can be traded and/or transferred.</span>
       </button>
       <button
         class:secondary={$draftFloat.transferrable}
@@ -268,7 +268,7 @@
       >
         Soulbound
         <span>
-          This FLOAT <strong>cannot</strong> be traded (soulbound).
+          This Yearblock <strong>cannot</strong> be traded (soulbound).
         </span>
       </button>
     </div>
@@ -281,7 +281,7 @@
       >
         Claimable
         <span>
-          Users can mint their own FLOAT based on the parameters defined below.
+          Users can mint their own Yearblock based on the parameters defined below.
         </span>
       </button>
       <button
@@ -291,7 +291,7 @@
       >
         Not Claimable
         <span
-          >You will be responsible for distributing the FLOAT to accounts.</span
+          >You will be responsible for distributing the Yearblock to accounts.</span
         >
       </button>
     </div>
@@ -312,7 +312,7 @@
       >
         Unlimited Quantity
         <span>
-          Select this if you don't want your FLOAT to have a limited quantity.
+          Select this if you don't want your YearBlock to have a limited quantity.
         </span>
       </button>
       <button
@@ -322,7 +322,7 @@
       >
         Limited Quantity
         <span>
-          You can set the maximum number of times the FLOAT can be minted.
+          You can set the maximum number of times the YearBlock can be minted.
         </span>
       </button>
     </div>
@@ -394,7 +394,7 @@
         on:click={() => ($draftFloat.claimCodeEnabled = false)}
       >
         No Secret Code
-        <span>Your FLOAT can be minted without a secret code.</span>
+        <span>Your YearBlock can be minted without a secret code.</span>
       </button>
       <button
         class:secondary={!$draftFloat.claimCodeEnabled}
@@ -403,7 +403,7 @@
       >
         Use Secret Code
         <span>
-          Your FLOAT can only be minted if people know the secret code.
+          Your YearBlock can only be minted if people know the secret code.
         </span>
       </button>
     </div>
@@ -438,7 +438,7 @@
         }}
       >
         Minimum Balance
-        <span>This FLOAT requires a minimum $FLOW balance.</span>
+        <span>This YearBlock requires a minimum $FLOW balance.</span>
       </button>
     </div>
     {#if $draftFloat.minimumBalance}
@@ -467,7 +467,7 @@
         on:click={() => ($draftFloat.flowTokenPurchase = false)}
       >
         Free
-        <span>This FLOAT is free for users to claim.</span>
+        <span>This YearBlock is free for users to claim.</span>
       </button>
       <button
         class:secondary={!$draftFloat.flowTokenPurchase}
@@ -478,7 +478,7 @@
       >
         Payment
         <span>
-          This FLOAT costs $FLOW to claim. Suitable for things like tickets.
+          This YearBlock costs $FLOW to claim. Suitable for things like tickets.
         </span>
       </button>
     </div>
@@ -497,7 +497,7 @@
             bind:value={$draftFloat.flowTokenPurchase}
           />
           <small>
-            Note: 5% of each purchase will go to the Emerald City DAO treasury.
+            Note: 5% of each purchase will go to the YearBlock DAO treasury.
           </small>
         </label>
       </div>
@@ -573,7 +573,7 @@
           </button>
         </div>
       {:else if $eventCreationInProgress}
-        <button aria-busy="true" disabled> Creating FLOAT </button>
+        <button aria-busy="true" disabled> Creating YearBlock </button>
       {:else if $eventCreatedStatus.success}
         <a
           role="button"
@@ -589,7 +589,7 @@
         </button>
       {:else}
         <button on:click|preventDefault={initCreateFloat}>
-          Create FLOAT
+          Create YearBlock
         </button>
       {/if}
     </footer>

@@ -13,34 +13,34 @@
 		<track kind="captions" />
 	</video>
 
-	<h2>Configure and create your own FLOAT Events.</h2>
+	<h2>Configure and create your own YearBlock Events.</h2>
 	<p>
 		Whether it be a <span class="twitter">Twitter space</span>,
 		<span class="discord">Discord call</span>,
 		<span class="youtube">YouTube livestream</span>, IRL event, or anything at
-		all, you can create a FLOAT Event so participants can remember and have
+		all, you can create a YearBlock Event so participants can remember and have
 		proof that they were there.
 	</p>
 
 	<h2>Cherish your favorite memories #onFlow.</h2>
 	<p>
-		Claim FLOATs and show them off as proof that <strong>you</strong> were there.
+		Claim YearBlocks and show them off as proof that <strong>you</strong> were there.
 	</p>
 
 	<h2 id="distribute-directly">Reward users for taking certain actions.</h2>
 	<p>
-		FLOATs can be configured to only be distributed by the creator. You can do
+		YearBlocks can be configured to only be distributed by the creator. You can do
 		this by selecting <span class="emphasis">Not Claimable</span> on the
 		<a href="/create">/create</a>
-		page. This means the creator can send FLOATs in their own custom transactions
+		page. This means the creator can send YearBlocks in their own custom transactions
 		to reward their community. Want to give people proof that they participated in
-		your token drop? Give them a FLOAT automatically in your transaction code when
+		your token drop? Give them a YearBlock automatically in your transaction code when
 		the user purchases the NFT.
 	</p>
 
 	<h2 id="distribute-directly">Configure your events however you want.</h2>
 	<p>
-		Want to prevent users from transferring your FLOATs? Want to put a time
+		Want to prevent users from transferring your YearBlocks? Want to put a time
 		limit or max capacity on your event? Configure your events however you want
 		on the <a href="/create">/create</a> page.
 	</p>
@@ -51,7 +51,7 @@
 		banned from the platform.
 	</p>
 
-	<h2>FLOAT == "Flow Attendance"</h2>
+	<h2>YearBlock == "YearBlock Attendance"</h2>
 	<p>
 		Developed by your <i>best</i> friends at
 		<a href="https://ecdao.org" target="_blank"
@@ -59,7 +59,7 @@
 				style="height:20px;width:auto;margin-right:4px;"
 				src="/emeraldcitylogo.png"
 				alt="Emerald City logo" />Emerald City</a
-		>, the first DAO on Flow. You may have seen us develop other fun stuff like
+		>, the first DAO on YearBlock. You may have seen us develop other fun stuff like
 		the
 		<a
 			href="https://emeralddao.notion.site/emeralddao/Emerald-bot-962a1d4c22a5417baad56ba5c79fdfcd"
@@ -72,7 +72,7 @@
 	</p>
 	<p>
 		Our goal is to educate the Flow community, build really cool things for the
-		Flow ecosystem (like FLOAT), and pave the way for DAOs on Flow. We'd love to
+		Flow ecosystem (like YearBlock), and pave the way for DAOs on Flow. We'd love to
 		have you!
 	</p>
 
@@ -80,7 +80,7 @@
 		role="button"
 		class="bold"
 		href="/create"
-		style="display:block; margin: 0 auto;">Create a FLOAT Event!</a>
+		style="display:block; margin: 0 auto;">Create a YearBlock Event!</a>
 </div>
 
 <style>

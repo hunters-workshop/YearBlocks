@@ -38,7 +38,7 @@
       >Connect Wallet</button
     >
   {:else}
-    <h2>Welcome to FLOAT</h2>
+    <h2>Welcome to YearBlocks</h2>
     <p class="mb-1 mt-2">You are currently logged in as</p>
     <div class="btn-group">
       <button class="outline mb-1">
@@ -106,7 +106,7 @@
     <p class="text-center m-0 red">
       <small
         ><strong>BEWARE</strong>: Anyone with access to the address above will
-        be able to control this account on FLOAT.</small
+        be able to control this account on YearBlock.</small
       >
     </p>
   {/if}

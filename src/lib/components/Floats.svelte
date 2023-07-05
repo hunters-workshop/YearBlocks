@@ -23,7 +23,7 @@
 
 <article>
   <header>
-    <h3 class="text-center">Claimed FLOATs</h3>
+    <h3 class="text-center">Claimed YearBlocks</h3>
   </header>
   {#await floats()}
     <Loading />
@@ -31,17 +31,17 @@
     {#if floats.length > 0}
       <FloatsTable {floats} />
     {:else}
-      <p class="text-center">This account has not claimed any FLOATs yet.</p>
+      <p class="text-center">This account has not claimed any YearBlocks yet.</p>
       {#if $user?.addr == addressObject.address}
         <a href="/create" role="button" class="addnew"
-          >Create a new FLOAT Event</a>
+          >Create a new YearBlock Event</a>
       {/if}
     {/if}
   {/await}
 
   {#if $user?.addr == addressObject.address}
   <a href="/incinerator" role="button" class="incinerate"
-    >Incinerate some FLOATs</a>
+    >Incinerate some YearBlocks</a>
   {/if}
 </article>
 

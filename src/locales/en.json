@@ -2,40 +2,40 @@
   "challenges": {
     "list": {
       "head": "Challenges {extension}",
-      "title": "FLOAT Challenges",
+      "title": "YearBlock Challenges",
       "filter": "Filter Challenges with treasury available",
-      "no-challege": "There is no any FLOAT Challenge."
+      "no-challege": "There is no any YearBlock Challenge."
     },
     "create": {
-      "head": "Creating a new FLOAT Challenge {extension}",
+      "head": "Creating a new YearBlock Challenge {extension}",
       "name": "Challenge Name",
       "desc": "Challenge Description",
       "image": "Challenge Image",
       "conifg-title": "Configure your Challenge",
-      "preset-title": "Select the FLOATs you want to be a part of your challenge",
-      "empty-slots-title": "Please set how many FLOATs can be included in the challenge?",
-      "button": "Create FLOAT Challenge",
+      "preset-title": "Select the YearBlocks you want to be a part of your challenge",
+      "empty-slots-title": "Please set how many YearBlocks can be included in the challenge?",
+      "button": "Create YearBlock Challenge",
       "hint-ecpass-1": "You can only create one Challenge for free.",
       "hint-ecpass-2": "If you need to create more new Challenges, you need to subscribe"
     },
     "detail": {
-      "head": "{name} | FLOAT Challenges by {host}",
+      "head": "{name} | YearBlock Challenges by {host}",
       "summary": {
         "achievement-point": "Achievement Points: ",
-        "collect-more": "Please collect more FLOATs of the Challenge",
+        "collect-more": "Please collect more YearBlocks of the Challenge",
         "claim-points": "Claim Points"
       },
       "settings": {
         "goal": {
           "title": "Add a new goal →",
           "select-by-amount": "By Amount",
-          "select-by-amount-desc": "Achieve by collecting amount of FLOATs in current challenge.",
+          "select-by-amount-desc": "Achieve by collecting amount of YearBlock in current challenge.",
           "select-by-percent": "By Percent",
-          "select-by-percent-desc": "Achieve by collecting percentage of FLOATs in current challenge.",
+          "select-by-percent-desc": "Achieve by collecting percentage of YearBlocks in current challenge.",
           "select-by-specifics": "By Specifics",
-          "select-by-specifics-desc": "Achieve by collecting some specific FLOATs incurrent challenge.",
+          "select-by-specifics-desc": "Achieve by collecting some specific YearBlocks incurrent challenge.",
           "points": "Goal points",
-          "floats-amount": "FLOATs Amount",
+          "floats-amount": "YearBlocks Amount",
           "with-required-amount": "With {n}",
           "btn-submit": "Submit new Goal",
           "set-title": "Title (Optional)",
@@ -87,24 +87,24 @@
         "cert": {
           "title": "Manage Certificates →",
           "select-generate": "Generate Certificate Code",
-          "select-generate-desc": "Generate a specific certificate code which can be configured in FLOAT creation.",
+          "select-generate-desc": "Generate a specific certificate code which can be configured in YearBlock creation.",
           "select-sync": "Sync Certificates",
-          "select-sync-desc": "Sync related FLOATs as Certificates of the Challenge.",
-          "btn-submit-sync": "Sync FLOAT Certificates"
+          "select-sync-desc": "Sync related YearBlocks as Certificates of the Challenge.",
+          "btn-submit-sync": "Sync YearBlock Certificates"
         }
       },
       "main": {
-        "title-slots": "FLOAT Events of the Challenge",
+        "title-slots": "YearBlock Events of the Challenge",
         "title-goals": "Challenge Goals",
         "title-treasury": "Challenge Treasury",
         "title-rewards": "Challenge Rewards",
         "title-certificate": "Challenge Certificates",
-        "title-desc-summary": "Collect FLOATs in the Challenge, complete Goals and obtain Achievement Points",
-        "title-desc-certificate": "When the achievement points obtained reach the specified number, you can go to claim the specific FLOAT as a challenge certificate",
+        "title-desc-summary": "Collect YearBlocks in the Challenge, complete Goals and obtain Achievement Points",
+        "title-desc-certificate": "When the achievement points obtained reach the specified number, you can go to claim the specific YearBlock as a challenge certificate",
         "title-desc-rewards": "When your achievement points or consumable points reach the target of Reward requirements, you will have the opportunity to claim the corresponding reward.",
-        "title-desc-settings-slots": "Here you can fill FLOATs in the challenge, and you can set any FLOAT before slots are filled.",
+        "title-desc-settings-slots": "Here you can fill YearBlocks in the challenge, and you can set any YearBlock before slots are filled.",
         "title-desc-settings-goals": "Here you can set goals of the challenge. You can set different achievement points for each goal.",
-        "title-desc-setting-certificate": "Here, Code of the challenge certificate can be generated. After the challenge certificate FLOAT is created, the FLOAT can be associated with the challenge through the synchronization.",
+        "title-desc-setting-certificate": "Here, Code of the challenge certificate can be generated. After the challenge certificate YearBlock is created, the YearBlock can be associated with the challenge through the synchronization.",
         "title-desc-settings-treasury": "You can deposit any Fungible Token or NFT to the Treasury, and these assets can be distributed to users in the challenge rewards.",
         "title-desc-settings-strategies": "Here you can set rewards for the challenge, and rewards will be limited. There are two reward strategies and three distribution strategies.",
         "title-desc-settings-danger": "You can revoke the challenge here. The challenge can be revoded only when all challenge rewards are closed. After the challenge is revoked, the assets in Treasury will be automatically transferred to your account."
@@ -114,12 +114,12 @@
       }
     },
     "common": {
-      "name": "FLOAT Challenge",
-      "create": "Create a new FLOAT Challenge",
+      "name": "YearBlock Challenge",
+      "create": "Create a new YearBlock Challenge",
       "amount": "Amount",
       "label-primary-slots": "Primary: {n}",
       "dialog": {
-        "title": "Add FLOAT Events to Challenge",
+        "title": "Add YearBlock Events to Challenge",
         "label-owner": "Owner Address",
         "btn-query": "Query",
         "add-to-challenge": "Add To Challenge"
@@ -128,13 +128,13 @@
     "elements": {
       "card": {
         "created-by": "Created by",
-        "slot-tip": "Collect {n} FLOATs to get Rewards",
+        "slot-tip": "Collect {n} YearBlocks to get Rewards",
         "slot": "Slots: {n}"
       },
       "goal": {
         "label-collect": "Collect",
         "by-amount-with": "with",
-        "label-target": "FLOATs of the Challenge",
+        "label-target": "YearBlocks of the Challenge",
         "label-points": "{points} Points"
       },
       "strategy": {
@@ -199,7 +199,7 @@
       "placeholder-ex": "ex. {ex}"
     },
     "headmeta": {
-      "title-floats": "FLOATs owned by {address}"
+      "title-floats": "YearBlocks owned by {address}"
     }
   },
   "errors": {
@@ -216,10 +216,10 @@
       "wait-for-claimable": "Please wait for the CLAIMABLE phase",
       "not-eligible-to-claim": "You are not eligible to claim the reward.",
       "no-reward-strategy": "There is no reward strategy for the Challenge",
-      "no-related-cert-float": "There is no related challenge certificate FLOAT in this account"
+      "no-related-cert-float": "There is no related challenge certificate YearBlock in this account"
     },
     "events": {
-      "account-no-events": "This account has not created any FLOAT events yet.",
+      "account-no-events": "This account has not created any YearBlock events yet.",
       "name-missing": "Event Name",
       "desc": "Event Description",
       "image": "Event Image",
@@ -229,12 +229,12 @@
   },
   "events": {
     "common": {
-      "create": "Create a new FLOAT Event",
+      "create": "Create a new YearBlock Event",
       "verifier": {
         "label-challenge-false": "No Challenge",
-        "label-challenge-false-desc": "This FLOAT is not a challenge certificate.",
+        "label-challenge-false-desc": "This YearBlock is not a challenge certificate.",
         "label-challenge-true": "Challenge Certificate",
-        "label-challenge-true-desc": "This FLOAT is a challenge certificate, You need to reach certain achievement points to claim."
+        "label-challenge-true-desc": "This YearBlock is a challenge certificate, You need to reach certain achievement points to claim."
       }
     },
     "create": {
@@ -244,7 +244,7 @@
     },
     "detail": {
       "section-info-cert-label": "CHALLENGE CERTIFICATE",
-      "section-info-cert-desc": "This FLOAT requires a minimium achievement points of <span class=\"emphasis\"> {n} </span> for the Challenge to claim.",
+      "section-info-cert-desc": "This YearBlock requires a minimium achievement points of <span class=\"emphasis\"> {n} </span> for the Challenge to claim.",
       "section-info-link": "LINK"
     }
   }

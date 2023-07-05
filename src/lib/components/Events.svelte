@@ -26,7 +26,7 @@
     <h3 class="text-center">Events</h3>
   </header>
   {#if $user?.addr == addressObject.address}
-    <a href="/create" role="button" class="addnew">Create a new FLOAT Event</a>
+    <a href="/create" role="button" class="addnew">Create a new YearBlock Event</a>
   {/if}
   {#await floatEvents()}
     <Loading />
@@ -34,7 +34,7 @@
     {#if floatEvents.length > 0}
     <EventsTable {floatEvents} />
     {:else}
-      <p class="text-center">This account has not created any FLOAT events yet.</p>
+      <p class="text-center">This account has not created any YearBlock events yet.</p>
     {/if}
   {/await}
 </article>

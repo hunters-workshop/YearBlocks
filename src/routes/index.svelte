@@ -14,8 +14,8 @@
 </svelte:head>
 
 <div class="hero">
-  <h1>Proof of attendance #onFlow.</h1>
-  <h3>Create events for your communities and prove that they were there.</h3>
+  <h1>Yearbooks on the blockchain.</h1>
+  <h3>Create yearbooks onchain to remember the good times.</h3>
 </div>
 
 <Stats />
